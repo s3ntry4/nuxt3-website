@@ -4,7 +4,7 @@ var times = useState('times', () => 0);
 
 <template>
   <div>
-    <button @click="times++">
+    <button @click="times++" class="shadow border rounded">
       this button has been clicked {{ times }}
       <span v-if="times == 1">time</span>
       <span v-else>times</span>

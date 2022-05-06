@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0.5em;
+}
+
+.btn {
+  @apply py-2 px-4 rounded bg-blue-500 text-white border shadow;
+  padding: 0.1em 0.3em;
+}
+
+.btn:hover {
+  @apply bg-blue-600;
+}
+
+.itext {
+  @apply rounded border shadow;
+  margin: 0.5em 0;
+  padding: 0.1em 0.3em;
+}
+
+.link {
+  @apply no-underline hover:underline text-blue-600;
+}
+
+hr {
+  margin: 0.5em 0;
+}
